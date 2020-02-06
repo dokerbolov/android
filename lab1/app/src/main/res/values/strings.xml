@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">lab1</string>
-    <string name="diff_num"><font size="50">187</font><font size="25">.67</font></string>
+    <string name="app_name"><font align="center">Мои финансы</font></string>
+
+    <string name="diff_num"><font size="70">187</font><font size="25">,67</font></string>
 </resources>

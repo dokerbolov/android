@@ -5,18 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15sp"
-        android:text="Мои финансы"
-        android:textColor="#cd00cd"
-        android:textSize="20sp"
-        android:layout_gravity="top"
-        android:gravity="center"
-        />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,17 +15,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="#F0F8FF">
+            android:background="#F0F8FF"
+            >
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="#FFFFFF">
+                android:layout_margin="10dp"
+                android:background="@drawable/oval_layout">
                 <TextView
                     android:layout_width="match_parent"
-                    android:layout_margin="15dp"
+                    android:layout_marginTop="10dp"
                     android:layout_height="wrap_content"
-                    android:textColor="#808080"
+                    android:textColor="#d3d3d3"
+                    android:textSize="11dp"
                     android:text="ДОСТПУНЫЙ БАЛАНС(KZT)"
                     android:gravity="center"
                     />
@@ -45,10 +38,10 @@
                     android:textSize="60dp"
                     android:text="@string/diff_num"
                     android:gravity="center"
-                    android:layout_margin="50dp"
-                    android:textColor="#add8e6"
-                    />
-
+                    android:layout_marginBottom="50dp"
+                    android:textColor="#34b9b1"
+                    android:fontFamily="actor"
+                    ></TextView>
             </LinearLayout>
 
             <ImageView
@@ -72,8 +65,9 @@
         android:layout_gravity="bottom"
         android:layout_margin="20sp"
         android:text="Разблакировать"
-        android:background="#cd00cd"
+        android:background="@drawable/oval_button2"
         android:textColor="#FFFFFF"
+
         ></Button>
 
 </LinearLayout>
