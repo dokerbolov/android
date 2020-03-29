@@ -26,4 +26,17 @@
         <item>Here is the some description that is used for the while, i am trying to say something</item>
     </string-array>
 
+    <string-array name="like_state">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
 </resources>

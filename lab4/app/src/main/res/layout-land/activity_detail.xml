@@ -5,13 +5,13 @@ xmlns:tools="http://schemas.android.com/tools"
 android:orientation="vertical" android:layout_width="match_parent"
 android:layout_height="wrap_content"
 android:background="#ffffff"
-android:weightSum="10"
+android:weightSum="13"
 android:id="@+id/mainLayout">
 
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    android:layout_weight="1"
+    android:layout_weight="2"
     android:weightSum="7"
     android:orientation="horizontal">
 
@@ -80,7 +80,7 @@ android:id="@+id/mainLayout">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    android:layout_weight="2"
+    android:layout_weight="4"
     android:weightSum="5"
     android:orientation="vertical">
     <LinearLayout
