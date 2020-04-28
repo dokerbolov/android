@@ -22,20 +22,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         input = findViewById(R.id.input)
         if(savedInstanceState != null){
+            input.text = savedInstanceState.getString("first_Value")
             value1 = savedInstanceState.getString("number1")
             value2 = savedInstanceState.getString("number2")
             sign = savedInstanceState.getString("sign")
             hasDot = savedInstanceState.getBoolean("dot")
             hasoper = savedInstanceState.getBoolean("haser")
-            input.text = savedInstanceState.getString("first_value")
         }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("first_Value", input.text.toString())
+        outState.putString("sign", sign)
         outState.putString("number1", value1)
-        outState.putString("operation", sign)
         outState.putString("number2", value2)
         outState.putBoolean("dot", hasDot)
         outState.putBoolean("haser", hasoper)
@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
         super.onRestoreInstanceState(savedInstanceState)
         savedInstanceState.getString("first_Value")
         savedInstanceState.getString("number1")
-        savedInstanceState.getString("operation")
         savedInstanceState.getString("number2")
+        savedInstanceState.getString("sign")
         savedInstanceState.getBoolean("dot")
         savedInstanceState.getBoolean("haser")
     }
