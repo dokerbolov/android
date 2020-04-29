@@ -1,0 +1,2 @@
+rootProject.name='inst_na_kotline'
+include ':app'
