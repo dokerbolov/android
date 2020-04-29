@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">inst_na_kotline</string>
+    <string-array name="names">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+        <item>Seventh</item>
+        <item>Eigth</item>
+        <item>Nines</item>
+        <item>Ten</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+        <item>Here is the some description that is used for the while, i am trying to say something</item>
+    </string-array>
+
+    <string-array name="like_state">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
 </resources>
