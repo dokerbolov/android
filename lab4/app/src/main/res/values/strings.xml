@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">lab4</string>
+    <string name="app_name">inst_key_apk</string>
     <string-array name="names">
         <item>First</item>
         <item>Second</item>
